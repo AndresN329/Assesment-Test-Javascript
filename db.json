@@ -1,0 +1,75 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@admin.com",
+      "password": "admin123",
+      "role": "admin",
+      "Confirmation": "admin123"
+    },
+    {
+      "id": "cdd9",
+      "name": "maria",
+      "email": "maria@maria.com",
+      "password": "maria123",
+      "Confirmation": "maria123",
+      "role": "visitor"
+    },
+    {
+      "id": "7e58",
+      "name": "juan",
+      "email": "juan@gmail.com",
+      "password": "juan123",
+      "Confirmation": "juan123",
+      "role": "visitor"
+    }
+  ],
+  "courses": [
+    {
+      "title": "evento 1 ",
+      "description": "descripcion",
+      "Date": "2025-07-19",
+      "capacity": "14",
+      "id": "1"
+    },
+    {
+      "title": "otro event",
+      "description": "jbsdjabfaf",
+      "Date": "2025-07-25",
+      "capacity": "20",
+      "id": "1940"
+    },
+    {
+      "title": "nada",
+      "description": "nada ",
+      "Date": "2025-07-14",
+      "capacity": "5",
+      "id": "40be"
+    },
+    {
+      "id": "0d8d",
+      "title": "TheLast",
+      "description": "nada TheLast",
+      "Date": "2025-07-16",
+      "capacity": "1"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "1",
+      "userId": 2,
+      "courseId": 1
+    },
+    {
+      "id": "4c25",
+      "userId": "1",
+      "courseId": 0
+    },
+    {
+      "id": "8545",
+      "userId": "cdd9",
+      "courseId": 0
+    }
+  ]
+}
